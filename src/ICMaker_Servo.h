@@ -66,8 +66,8 @@
  int readTimerWidth() - Gets the PWM timer width (ESP32 ONLY)
  */
 
-#ifndef ICMaker_ESP32_Servo_h
-#define ICMaker_ESP32_Servo_h
+#ifndef ICMaker_Servo_h || ESP32_Servo_h
+#define ICMaker_Servo_h
 //#include "analogWrite.h"
 #include "ESP32PWM.h"
 //#include "ESP32Tone.h"
