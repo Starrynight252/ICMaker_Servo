@@ -66,7 +66,7 @@
  int readTimerWidth() - Gets the PWM timer width (ESP32 ONLY)
  */
 
-#if defined(ARDUINO) && !defined(ICMaker_Servo_h)
+ #if !defined(ICMaker_Servo_h) && !defined(ESP32_Servo_h)
 #define ICMaker_Servo_h
 //#include "analogWrite.h"
 #include "ESP32PWM.h"
