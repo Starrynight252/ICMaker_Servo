@@ -75,7 +75,7 @@ Servo::Servo()
 
 }
 
-ESP32PWM void Servo::begin(int pin)
+void Servo::begin(int pin)
 {
     ESP32PWM::allocateTimer(0);
 	ESP32PWM::allocateTimer(1);
@@ -85,7 +85,7 @@ ESP32PWM void Servo::begin(int pin)
     this->attach(pin, DEFAULT_uS_LOW, DEFAULT_uS_HIGH);
 }
 
-ESP32PWM void Servo::begin(int pin, int min, int max)
+void Servo::begin(int pin, int min, int max)
 {
     ESP32PWM::allocateTimer(0);
 	ESP32PWM::allocateTimer(1);
