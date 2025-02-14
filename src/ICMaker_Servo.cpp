@@ -52,16 +52,16 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 */
 /*
 ----------------------------------------------------------
-由ICROBOT 2025/2/14 修改，并且重新命名库文件为ICMaker_Servo
+于ICROBOT 2025/2/14 修改，并且重新命名库文件为ICMaker_Servo
 ----------------------------------------------------------
 */
 
-#include <ESP32Servo.h>
+#include <ICMaker_Servo.h>
 #if defined(ARDUINO)
 	#include "Arduino.h"
 #endif
 
-static const char* TAG = "ESP32Servo";
+static const char* TAG = "ICMaker_Servo";
 
 Servo::Servo()
 {		// initialize this channel with plausible values, except pin # (we set pin # when attached)
