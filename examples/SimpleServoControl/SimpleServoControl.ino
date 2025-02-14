@@ -26,7 +26,7 @@ void loop()
 {
 
     myservo.write(0);  // 舵机转到0度
-    delay(500);        // 等待0.5秒
+    delay(1000); // 等待1秒
     myservo.write(90); // 舵机转到90度
-    delay(500);        // 等待0.5秒
+    delay(1000);    // 等待1秒
 }
