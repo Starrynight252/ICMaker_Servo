@@ -15,7 +15,7 @@ Servo myservo; // 创建一个舵机对象来控制一个舵机
 // ESP32-S2 上可能的 PWM GPIO 引脚：0（用于板载按钮）、1-17、18、19-21、26、33-42
 // ESP32-S3 上可能的 PWM GPIO 引脚：0（用于板载按钮）、1-21、35-45、47、48
 // ESP32-C3 上可能的 PWM GPIO 引脚：0（用于板载按钮）、1-7、8、9-10、18-21
-int servoPin = 18; // GPIO pin used to connect the servo control (digital out)
+int servoPin = 13; // GPIO pin used to connect the servo control (digital out)
 
 void setup()
 {
